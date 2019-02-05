@@ -7,3 +7,6 @@ a/b
 # dir(p1) p1.a p1.b
 # to convert from string to int, only numeric string works. A = int(input("1"))
 # print(("Hello", end= "\n") or ..., sep = "")
+# print("Hello") is a statement because it doensnt return anything. and we can't assign it to let's say variable a
+# True and False are case sensetive
+# Tuple can't be changed
