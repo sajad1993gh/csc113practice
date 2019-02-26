@@ -2,6 +2,7 @@
  # S = A+B+C /2
  # Area = radical S(S-A)(S-B)(S-C)
  # multiple assignment: 1,b,c = 1,2,3
+ # lamda function
  def get_vertex():
      x = float(input("enter x value"))
      y = float(input("enter y value"))
