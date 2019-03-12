@@ -15,3 +15,13 @@
 
 #try:
 #except:
+
+def divide(x,y):
+    try:
+        result = x/y
+    except ZeroDivisionError:
+        print("divded by zero!")
+    else:
+        print(result)
+    finally:
+        print("finally")
