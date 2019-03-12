@@ -19,8 +19,11 @@
 def divide(x,y):
     try:
         result = x/y
-    except ZeroDivisionError:
-        print("divded by zero!")
+    except ZeroDivisionError as x:
+        if str(x) == "math domain":
+            print("divded by zero!")
+        else:
+            print("invalid")
     else:
         print(result)
     finally:
