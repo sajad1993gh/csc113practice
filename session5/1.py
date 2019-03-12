@@ -3,3 +3,7 @@
 # only False and 0 are considered as False by python
 # ord("0") the order in the table
 # chr(65)  --> 'A'
+# if <condition>:
+#      <statement>
+# else:
+#      <statement>
