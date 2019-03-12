@@ -12,3 +12,6 @@
 #elif <condition2>:
 
 #else:
+
+#try:
+#except:
