@@ -7,3 +7,8 @@
 #      <statement>
 # else:
 #      <statement>
+
+#if <condition1>:
+#elif <condition2>:
+
+#else:
