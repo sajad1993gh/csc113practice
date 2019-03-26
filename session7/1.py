@@ -28,4 +28,4 @@ type(range(100)) # it is range
 
 for i in range(0,21,2): # 2 is the range step
     print(i)
-# to go backward range(20,-1,-2)
+# to go backward range(20,-1,-2) . you can't use float for none of them
