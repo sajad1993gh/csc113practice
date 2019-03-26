@@ -9,3 +9,4 @@ import random
 # choice(list) returns one element randomly
 # list [1,"a", 3 , ...]
 # Tuple[1, "a", 3] unchangable
+random.randrange(4,10,3)
