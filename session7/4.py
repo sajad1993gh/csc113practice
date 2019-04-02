@@ -13,10 +13,14 @@ print("\n", sum/count)
 
 # sentinel loops
 
-xStr = input("Enter number>> "))
+xStr = input("Enter number>> ")
 
 while xStr != "":
     x = float(xStr)
+    sum = sum + x
+    count = count + 1
+    moredata = input("more ? >> ")
+print("\n", sum/count)
 
 
 # Nested loops:
