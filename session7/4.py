@@ -3,7 +3,7 @@
 sum = 0
 count = 0
 moredata = "yes"
-while moredata[0] == "y" | moredata[0] == "Y":
+while moredata[0] == "y" or moredata[0] == "Y":
     x = float(input("Enter number>> "))
     sum = sum + x
     count = count + 1
