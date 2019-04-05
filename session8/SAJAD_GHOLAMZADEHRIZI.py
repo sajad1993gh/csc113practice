@@ -1,6 +1,7 @@
 # SAJAD_GHOLAMZADEHRIZI
 # SESSION AFTERNOON 1 _ Assignment 4
 import math
+# 1
 
 def perf_int(n):
     try:
@@ -21,19 +22,22 @@ if str(n) == "True":
 else:
     print("No it's not perfect")
 
-z = int(input("Enter a positive integer to get the divisors:\n"))
+# 2
+
+z = int(input("Enter a positive integer to get all positive integer divisors:\n"))
 print("The divisors are:")
 for i in range(1, z+1):
     if(z % i == 0):
         print(i)
 
+# 3
+
 def is_triangle(a, b, c):
     n = (b - c)
     if n < 0 :
         n = -n
-    if n < a :
-        if a < b + c:
-            return True
+    if n < a and a < b + c:
+        return True
     return False
 
 def get_vertex():
