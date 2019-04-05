@@ -62,19 +62,34 @@ else:
     print("No they can't form a triangle")
 
 
-first = int(input("Enter an integer to start from:\n"))
+first = int(input("For Prime Numbers, Enter an integer to start from:\n"))
 last = int(input("Enter an  integer to end:\n"))
 
-def is_prime(i):
+def is_prime(number):
     isPrimeBool = True
-    if n < 2:
-        isPrimeBool = False
+    if number < 2:
+        isPrimeBool = False  # because no number less than 2 is prime
     else:
-        for i in range(2,n):
-            if n % i == 0:
-                isPrimeBool = False
+        for j in range(2, number):
+            if number % j == 0:
+                isPrimeBool = False   #the number is divisable by any number lass than itself,then it is not prime.
     return isPrimeBool
 
 for i in range(first,last + 1):
     if is_prime(i):
         print(i)
+
+def fact(n):
+    if n == 0:
+        return 1
+    factorial = 1
+    for i in range(1, n + 1):
+        factorial = factorial * i
+    return factorial
+
+
+x = int(input("For the last part, Enter the number of people you have (the value of x):\n"))
+y = int(input("Enter the number of people you want to pick and seat them around a table:\n"))
+
+answer = (fact(x)/(fact(x - y) * fact(y))) * fact(y - 1)
+print(answer)
