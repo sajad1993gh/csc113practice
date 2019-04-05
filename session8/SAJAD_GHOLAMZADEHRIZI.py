@@ -61,20 +61,20 @@ if is_triangle(a, b, c):
 else:
     print("No they can't form a triangle")
 
-def is_prime():
-    for n in range(first, last + 1):
-        prime_value = True
-        if n < 2:
-            prime_value = False
-        else:
-            for i in range(2,n):
-                if n % i == 0:
-                    prime_value = False
-        return prime_value
 
 first = int(input("Enter an integer to start from:\n"))
 last = int(input("Enter an  integer to end:\n"))
 
-for n in range(first, last + 1):
-    if is_prime():
-        print(n)
+def is_prime(i):
+    isPrimeBool = True
+    if n < 2:
+        isPrimeBool = False
+    else:
+        for i in range(2,n):
+            if n % i == 0:
+                isPrimeBool = False
+    return isPrimeBool
+
+for i in range(first,last + 1):
+    if is_prime(i):
+        print(i)
