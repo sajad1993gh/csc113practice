@@ -1,7 +1,7 @@
  # Hero's Formula
  # S = A+B+C /2
  # Area = radical S(S-A)(S-B)(S-C)
- # multiple assignment: 1,b,c = 1,2,3
+ # multiple assignment: a,b,c = 1,2,3
  # lamda function
 import math
 
