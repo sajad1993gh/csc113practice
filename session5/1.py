@@ -16,6 +16,8 @@
 #try:
 #except:
 
+print("Hello" <= "hello")
+
 def divide(x,y):
     try:
         result = x/y
