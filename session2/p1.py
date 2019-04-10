@@ -10,3 +10,7 @@ a/b
 # print("Hello") is a statement because it doensnt return anything. and we can't assign it to let's say variable a
 # True and False are case sensetive
 # Tuple can't be changed
+
+name = input('Enter your name? \n') #eval is wrong
+for i in name:
+    print(i,sep="*",end="\n")
