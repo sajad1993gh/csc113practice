@@ -4,7 +4,7 @@ maxval = float(input("Enter your first?  "))
 
 for i in range(n-1):
     num = float(input("Enter your first?  "))
-    if num >= maxval:
+    if num > maxval:
         maxval = num
 
 print(maxval)
