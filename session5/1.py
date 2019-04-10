@@ -17,6 +17,11 @@
 #except:
 
 print("Hello" <= "hello")
+x1, x2, x3 = 3, 2, 1
+maxval = 0
+if x1 >= x2 >= x3:
+    maxval = x1
+print(maxval)
 
 def divide(x,y):
     try:
