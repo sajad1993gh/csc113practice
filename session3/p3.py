@@ -2,7 +2,7 @@
  # S = A+B+C /2
  # Area = radical S(S-A)(S-B)(S-C)
  # multiple assignment: a,b,c = 1,2,3
- # lamda function
+ # lamda function sum = lambda x,y: x + y
 import math
 
 def get_vertex():
