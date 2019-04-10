@@ -1,3 +1,3 @@
 f = input("f ?")
 l = input("l ?")
-print ("Hello, " + l + " " + f)
+print ("Hello,", l, f)
