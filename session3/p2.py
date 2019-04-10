@@ -13,3 +13,10 @@ def f():
 a = 0
 f()
 print(a)
+
+"""
+def f2():
+    return f2()
+
+f2()
+"""
