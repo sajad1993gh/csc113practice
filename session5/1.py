@@ -37,8 +37,3 @@ def divide(x,y):
         print("finally")
 
 divide(1,0)
-
-def divide2(x,y):
-    print(x/y)
-
-divide2(1,0)
