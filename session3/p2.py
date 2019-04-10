@@ -7,7 +7,9 @@ def digit_extraction(number,position):
 print(digit_extraction(123456,3));
 
 def f():
+    global a
+    a = 1
     print(a)
-
-a = 1
+a = 0
 f()
+print(a)
