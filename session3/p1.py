@@ -1,5 +1,5 @@
 #functions
-# F = celsius_to_F(ayrgument)
+# F = celsius_to_F(argument)
 
 def celsius_to_F(celsius_float):
     """Convert Celsius to Fahrenheit. """ #documentation or docstring
