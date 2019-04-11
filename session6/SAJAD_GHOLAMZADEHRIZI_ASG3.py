@@ -39,22 +39,20 @@ except:
 
 
 def primeFactors(n):
-    if n<2:
-        print("it doesnt have any prime factors")
-    if n % 2 == 0:
-        print(2)
-    if n % 3 == 0:
-        print(3)
-    if n % 5 == 0:
-        print(5)
-    if n % 7 == 0:
-        print(7)
-    if n % 11 == 0:
-        print(11)
-    if n % 13 == 0:
-        print(13)
-    if n % 17 == 0:
-        print(17)
+    num=int(input("Enter an integer:")) #user input
+    print("Factors are:")
+    i=1
+    while(i <= num): #while loop
+        k=0
+        if(num%i==0): #condition to check whether the number is prime or not
+            j=1
+            while(j<=i): #logic for prime factor
+                if(i%j==0):
+                    k=k+1
+                j=j+1
+            if(k==2):
+                print(i) #prints the prime factors
+        i=i+1
 
 n = int(input("Enter an integer to get its prime factors? \n"))
 primeFactors(n)
