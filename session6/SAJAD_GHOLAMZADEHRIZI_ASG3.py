@@ -38,35 +38,43 @@ except:
     print("\nSomething went wrong, sorry!")
 
 
-def primeFactors(num):
-    print("Factors are:")
-    i = 1
-    while(i <= num): #while loop
-        k = 0
-        if(num % i == 0): #condition to check whether the number is prime or not
-            j = 1
-            while(j <= i): #logic for prime factor
-                if(i % j == 0):
-                    k = k + 1
-                j = j + 1
-            if(k == 2):
-                print(i) #prints the prime factors
-        i = i + 1
+def is_prime(number):
+    if(number == 1):
+        return False
+    for x in range(2,number):
+        if number % x == 0:
+            return False
+    return True
 
-num = int(input("Enter an integer to get its prime factors? \n"))
-primeFactors(num)
-
-
-def pFact(x):
-    if x < 3:
-        print(2)
-    elif x % x - 1 != 0:
-        print(x)
-        pFact(x - 1)
+def primeFactors(n, i):
+    if(n == 1):
+        return
+    elif(n%i == 0):
+        print(i)
+        primeFactors(n//i, i)
     else:
-        pFact(x - 1)
+        primeFactors(n, i+1)
 
-x = int(input("Enter an integer to get the prime numbers which are less than or equal to it? \n"))
-pFact(x)
 
-print(2);
+n = int(input("Enter a number: "))
+primeFactors(n,2)
+
+
+def is_prime(n, i=2):
+    if i == n:
+        return True
+    else:
+        return n % i != 0 and is_prime(n, i + 1)
+
+
+def print_primes(n):
+    if n > 1:
+        print_primes(n - 1)
+        if is_prime(n):
+            print(n, end=' ')
+
+
+n = int(input('Enter a value for n: '))
+print('Primes numbers upto', n, 'are:', end=' ')
+print_primes(n)
+print()
