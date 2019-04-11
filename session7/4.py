@@ -6,7 +6,7 @@ moredata = "yes"
 while moredata[0] == "y" or moredata[0] == "Y":
     x = float(input("Enter number>> "))
     sum = sum + x
-    count = count + 1
+    count++
     moredata = input("more ? >> ")
 print("\n", sum/count)
 
