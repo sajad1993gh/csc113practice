@@ -40,11 +40,11 @@ except:
 
 def primeFactors(num):
     print("Factors are:")
-    i=1
+    i = 1
     while(i <= num): #while loop
         k = 0
         if(num % i == 0): #condition to check whether the number is prime or not
-            j=1
+            j = 1
             while(j <= i): #logic for prime factor
                 if(i % j == 0):
                     k = k + 1
@@ -58,16 +58,13 @@ primeFactors(num)
 
 
 def pFact(x):
-    if x < 4:
-        return;
-    if x % 2 == 0:
-        x = x - 1
+    if x < 3:
+        print(2)
+    elif x % x - 1 != 0:
         print(x)
-        pFact(n)
+        pFact(x - 1)
     else:
-        x = x - 2
-        print(x)
-        pFact(x)
+        pFact(x - 1)
 
 x = int(input("Enter an integer to get the prime numbers which are less than or equal to it? \n"))
 pFact(x)
