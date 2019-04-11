@@ -60,17 +60,17 @@ n = int(input("Enter a number: "))
 primeFactors(n,2)
 
 
-def is_prime(n, i=2):
+def iss_prime(n, i=2):
     if i == n:
         return True
     else:
-        return n % i != 0 and is_prime(n, i + 1)
+        return n % i != 0 and iss_prime(n, i + 1)
 
 
 def print_primes(n):
     if n > 1:
         print_primes(n - 1)
-        if is_prime(n):
+        if iss_prime(n):
             print(n, end=' ')
 
 
