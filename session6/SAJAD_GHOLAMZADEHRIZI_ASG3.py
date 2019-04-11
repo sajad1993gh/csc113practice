@@ -16,8 +16,8 @@ def collatz(n):
                 print(newN)
                 if newN != 1:
                     collatz(newN)
-                else:
-                    return (newN)
+                #else:
+                    #return (newN)
             elif n % 2 != 0:
                 newN = 3 * n + 1
                 print (newN)
