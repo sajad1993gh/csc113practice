@@ -20,7 +20,7 @@ while xStr != "":
     x = float(xStr)
     sum = sum + x
     count = count + 1
-    xStr = input("more ? >> ")
+    xStr = input("more ? (Enter to quit)>> ")
 print("\n", sum/count)
 
 
