@@ -8,7 +8,7 @@ import random
 # sample[list,4]
 # choice(list) returns one element randomly
 # list [1,"a", 3 , ...]
-# Tuple[1, "a", 3] unchangable
+# Tuple(1, "a", 3) unchangable
 a = random.randrange(4,10,3)
 print(a)
 
