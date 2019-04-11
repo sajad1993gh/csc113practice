@@ -38,24 +38,23 @@ except:
     print("\nSomething went wrong, sorry!")
 
 
-def primeFactors(n):
-    num=int(input("Enter an integer:")) #user input
+def primeFactors(num):
     print("Factors are:")
     i=1
     while(i <= num): #while loop
-        k=0
-        if(num%i==0): #condition to check whether the number is prime or not
+        k = 0
+        if(num % i == 0): #condition to check whether the number is prime or not
             j=1
-            while(j<=i): #logic for prime factor
-                if(i%j==0):
-                    k=k+1
-                j=j+1
-            if(k==2):
+            while(j <= i): #logic for prime factor
+                if(i % j == 0):
+                    k = k + 1
+                j = j + 1
+            if(k == 2):
                 print(i) #prints the prime factors
-        i=i+1
+        i = i + 1
 
-n = int(input("Enter an integer to get its prime factors? \n"))
-primeFactors(n)
+num = int(input("Enter an integer to get its prime factors? \n"))
+primeFactors(num)
 
 
 def pFact(x):
@@ -70,6 +69,6 @@ def pFact(x):
         print(x)
         pFact(x)
 
-x = int(input("Enter an integer to get the prime factors which are less than or equal to it? \n"))
+x = int(input("Enter an integer to get the prime numbers which are less than or equal to it? \n"))
 pFact(x)
 print(2);
