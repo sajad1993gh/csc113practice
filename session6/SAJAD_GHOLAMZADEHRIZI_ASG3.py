@@ -71,4 +71,5 @@ def pFact(x):
 
 x = int(input("Enter an integer to get the prime numbers which are less than or equal to it? \n"))
 pFact(x)
+
 print(2);
