@@ -34,7 +34,7 @@ while moreInt[0] == "y" or moreInt[0] == "Y":
     for i in range(1, z+1):
         if(z % i == 0):
             print(i)
-    moreInt = str(input("Would you like to try one more time?(yes or no)\n"))
+    moreInt = input("Would you like to try one more time?(yes or no)\n")
 
 # 3
 
@@ -72,7 +72,7 @@ try:
             print("Yes they form a triangle")
         else:
             print("No they can't form a triangle")
-        moreTriangle = str(input("Do you have more points to examine? (yes or no)\n"))
+        moreTriangle = input("Do you have more points to examine? (yes or no)\n")
 except ValueError:
     print("Please enter a valid integer")
 except:
@@ -96,7 +96,7 @@ while moreNum[0] == "y" or moreNum[0] == "Y":
     for i in range(first,last + 1):
         if is_prime(i):
             print(i)
-    moreNum = str(input("Do you want to try one more time? (yes or no) \n"))
+    moreNum = input("Do you want to try one more time? (yes or no) \n")
 
 # 5
 
@@ -114,4 +114,4 @@ while morePeople[0] == "y" or morePeople[0] == "Y":
     y = int(input("Enter the number of people you want to pick and seat them around a table (the value of Y):\n"))
     answer = (fact(x)/(fact(x - y) * fact(y))) * fact(y - 1)
     print(answer)
-    morePeople = str(input("Would you like to try one more time? (yes or no)\n"))
+    morePeople = input("Would you like to try one more time? (yes or no)\n")
