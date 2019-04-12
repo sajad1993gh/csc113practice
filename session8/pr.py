@@ -6,3 +6,11 @@ for i in sentence:
     encrypted += chr(temp)
 
 print(encrypted)
+
+decrypted = ""
+
+for i in encrypted:
+    temp = ord(i) - 2
+    decrypted += chr(temp)
+
+print(decrypted)
