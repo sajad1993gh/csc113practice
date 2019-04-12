@@ -1,7 +1,7 @@
 import random
 # dir(random)
 # random()
-# uniform(min,max)
+# uniform(min,max) Return a random floating point number N such that min <= N <= max
 # randint(min,max)
 # randrange(min,max,modulo) modulo is optional
 # shuffle(list)
