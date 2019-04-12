@@ -53,9 +53,8 @@ def get_triangle():
     return x1, y1, x2, y2, x3, y3
 
 def is_triangle(a, b, c):
-    n = (b - c)
-    if n < 0 :
-        n = -n
+    n = abs(b - c)
+
     if n < a and a < b + c:
         return True
     return False
