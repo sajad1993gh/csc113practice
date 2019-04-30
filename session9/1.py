@@ -8,7 +8,8 @@ temp_file = open("temp.txt" , "w")
 
     "r" mode is read-only mode and ...
     look at the table of different modes
-    the default value of file = is sys.stdout // using help.print
+    the default value of file = is sys.stdout // using help...print
+    and flush = False
 """
 print("first line", file = temp_file)
 print("second line", file = temp_file)
