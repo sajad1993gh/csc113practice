@@ -15,7 +15,12 @@ print(phonebook.readline())
 print(phonebook.readline())
 print(phonebook.readline())
 
-print(phonebook.readline()) # this prints empty string
-""""
+print(phonebook.readline())  this prints empty string
+"""
 
 print(phonebook.readlines())
+
+"""
+phonebook.seek(0) sets the tracker at 0'th character
+phonebook.tell() tells you where your tracker is
+"""
