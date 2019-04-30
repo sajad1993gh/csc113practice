@@ -24,3 +24,4 @@ print(phonebook.readlines())
 phonebook.seek(0) sets the tracker at 0'th character
 phonebook.tell() tells you where your tracker is
 """
+print(phonebook.seek(20))
