@@ -10,8 +10,12 @@ phonebook = open("phonebook.txt", "r")
 
 #print(phonebook.read())
 
+"""
 print(phonebook.readline())
 print(phonebook.readline())
 print(phonebook.readline())
 
 print(phonebook.readline()) # this prints empty string
+""""
+
+print(phonebook.readlines())
