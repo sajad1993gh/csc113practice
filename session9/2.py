@@ -34,4 +34,9 @@ what is you wanna add stuff to the beginning of the file without changing the st
 with open("phonebook.txt", "r+") as f:
     data1 = f.read() # saving it in data1
     f.seek(0)
-    f.write("\nSajad: 3456789" + data1) # overwriting it 
+    f.write("\nSajad: 3456789" + data1) # overwriting it
+
+"""
+"""
+A = "king\'s"
+"""
