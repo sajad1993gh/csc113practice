@@ -28,3 +28,12 @@
 # so .split() turns a string to a list that we can change
 # ' '.join(list) join with space seperator and creates a string
 # create a distinct copy by list[:]
+# Tuples are more secured
+# .append .extend .del dont work on Tuple . the rest do.
+# building a list with iteration
+# [ n**2 for n in range(1,6)] --> [1,4,...25]
+# Dictionary
+# Phonebook= { "Sajad" : "234 234 2343"
+#               "Saji"  : "456789"
+#               }
+# Phonebook["Sajad"]
