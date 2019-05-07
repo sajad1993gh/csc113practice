@@ -13,4 +13,11 @@
 # access a list inside a list list[][]
 # len([1, [1,2], 3]) --> 3
 # min(lst) , max(lst), sum(lst)
-# lists are mutable . but you can't assign char directily, make a new string by "string.replace('a','z') this will replace every a with z"
+# lists are mutable . for lists you can but for strings but you can't assign char directily, make a new string by "string.replace('a','z') this will replace every a with z"
+# methods like : .append(5) adds the element as it is.   .extend([5]) grow the lists at the end of it. but extend needs to add a list containing the digits we want
+# .pop()
+# if you pop from an empty list, error: IndexError
+# .insert(index,number) ...   .insert(3,20)
+# if you insert after the last element, even if like .insert(50, 99) it will just add at the end of the list
+# .remove(5) , removes the first number 5 in the last
+# .sort() .reverse()
