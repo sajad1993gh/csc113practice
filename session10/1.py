@@ -10,3 +10,5 @@
 # indexing is 0 ..... 3
 # 4 .... -1
 # pay attention to return data type pf myList[:3] which is slicing which is a list
+# access a list inside a list list[][]
+# len([1, [1,2], 3]) --> 3
