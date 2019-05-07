@@ -21,3 +21,9 @@
 # if you insert after the last element, even if like .insert(50, 99) it will just add at the end of the list
 # .remove(5) , removes the first number 5 in the last
 # .sort() .reverse()
+# random.shuffle(a)
+# you can't assign those to something, cuz they dont return anything to the screen!
+
+# for strings ::  "this is a test".split() .. by default ignores the spaces
+# so .split() turns a string to a list that we can change
+# .join(list) join with space seperator and creates a string
