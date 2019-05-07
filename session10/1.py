@@ -26,4 +26,5 @@
 
 # for strings ::  "this is a test".split() .. by default ignores the spaces
 # so .split() turns a string to a list that we can change
-# .join(list) join with space seperator and creates a string
+# ' '.join(list) join with space seperator and creates a string
+# create a distinct copy by list[:]
