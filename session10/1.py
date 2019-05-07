@@ -12,3 +12,5 @@
 # pay attention to return data type pf myList[:3] which is slicing which is a list
 # access a list inside a list list[][]
 # len([1, [1,2], 3]) --> 3
+# min(lst) , max(lst), sum(lst)
+# lists are mutable . but you can't assign char directily, make a new string by "string.replace('a','z') this will replace every a with z"
