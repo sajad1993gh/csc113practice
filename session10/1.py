@@ -33,7 +33,7 @@
 # building a list with iteration
 # [ n**2 for n in range(1,6)] --> [1,4,...25]
 # Dictionary
-# Phonebook= { "Sajad" : "234 234 2343"
+# Phonebook= { "Sajad" : "234 234 2343",
 #               "Saji"  : "456789"
 #               }
 # Phonebook["Sajad"]
